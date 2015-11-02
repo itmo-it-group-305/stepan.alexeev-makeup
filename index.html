@@ -6,16 +6,62 @@
 </head>
 <body>
     <form action="index.html" method="post">
-        <input type="text" placeholder="Текст...">
-
-        <input type="radio" name="sex" value="0">
-        <input type="radio" name="sex" value="1">
-        <input type="radio" name="sex" value="2" checked>
-
-        <input type="checkbox" name="sections[]" value="1">
-        <input type="checkbox" name="sections[]" value="2" checked>
-        <input type="checkbox" name="sections[]" value="3">
-
+        <div>
+            <label for="fio">ФИО</label>
+            <input type="text" id="fio" name="fio" placeholder="Иванов Иван Иванович">
+        </div>
+        <div>
+            <label>
+                Мужской <input type="radio" name="sex" value="0">
+            </label>
+            <label>
+                Женский <input type="radio" name="sex" value="1">
+            </label>
+            <label>
+                Не определён <input type="radio" name="sex" value="2" checked>
+            </label>
+        </div>
+        <div>
+            <label for="city">Выберите город</label>
+            <select name="city" id="city">
+                <option value="1">Санкт-Петербург</option>
+                <option value="2">Москва</option>
+                <option value="3" selected>Таганрог</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Выберите категории рассылок</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="sections[]" value="1">
+                            Новости
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label>
+                           <input type="checkbox" name="sections[]" value="2" checked>
+                           Котики
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="sections[]" value="3">
+                            Автомобили
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div>
+            <label for="comment">Особые пожелания</label>
+            <textarea name="comment" id="comment">Магия</textarea>
+        </div>
         <input type="submit" value="Поехали!">
     </form>
 </body>
