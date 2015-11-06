@@ -36,6 +36,74 @@
 
     </table>
     <h6><sup>*</sup>Не является публичной офертой</h6>
+    <h2>Бриф для предварительного заказа:</h2>
+    <form action="index.html" method="post">
+        <div>
+            <label for="name">Ваше имя/название организации</label>
+            <input type="text" id="name" name="name" placeholder="Семён">
+        </div>
+        <div>
+            <label for="email">E-mail для связи</label>
+            <input type="email" id="email" name="email" placeholder="a@a.com">
+        </div>
+        <div>
+            <legend>Выберите улугу</legend>
+            <label>
+                <input type="radio" name="usl" value="0">Сайт "под ключ"
+            </label>
+            <label>
+                <input type="radio" name="usl" value="1">Вёрстка дизайн-макета(HTML5+CSS3)
+            </label>
+            <label>
+                <input type="radio" name="usl" value="2">Вёрстка дизайн-макета(HTML5+CSS3+шаблонизация под CMS)
+            </label>
+            <label>
+                <input type="radio" name="usl" value="2">Установка и настройка CMS
+            </label>
+        </div>
+        <div>
+            <label for="diz">Работа с дизайном</label>
+            <select name="diz" id="diz">
+                <option value="1" selected>Наш дизайнер</option>
+                <option value="2">Ваш дизайнер</option>
+                <option value="3">Совместная работа</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Дополнительные пожелания</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="dop[]" value="1">
+                            Уникальный контент
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="dop[]" value="2" checked>
+                            Первичная SEO-оптимизация
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="dop[]" value="3">
+                            Частичное администрирование
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div>
+            <label for="more">Ваши пожелания</label>
+            <textarea name="moret" id="more"></textarea>
+        </div>
+        <input type="submit" value="Отправит запрос!">
+    </form>
     <hr />
     <p><sub>Copyright &copy; Gremlin 2015</sub></p>
 </body>
