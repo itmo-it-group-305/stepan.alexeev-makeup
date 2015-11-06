@@ -1,0 +1,60 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic,cyrillic-ext);
+
+body{
+    margin: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2{
+    font-family: Verdana, Arial, sans-serif;
+    color: #ff8f20;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-row{
+    margin: 20px 0; /*Низверх Праволево*/
+}
+
+.form-row label{
+    display: block;
+    margin: 10px;
+}
+
+.form-row input{
+    border: 1px solid #c4ff52;
+    border-radius: 5px;
+    padding: 5px;
+    background: #c9d1ff;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+.form-row [type=radio],
+.form-row [type=checkbox]{
+    width: auto;
+}
+
+button{
+    width: auto;
+}
+
+.spam-form{
+    width: 50%;
+    margin: 0 auto;
+}
