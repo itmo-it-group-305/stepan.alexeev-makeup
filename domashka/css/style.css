@@ -1,0 +1,122 @@
+@import url(fonts.css);
+@import url(normalize.css);
+@import url(grid.css);
+/*@import url(reset.css);*/
+
+body{
+    margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #010077;
+    background: #d1d9ff;
+    font-size: 14px;
+}
+
+h1{
+    font-family: Verdana, Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #010077;
+    border-radius: 5px;
+    background: #DDD;
+    float: left;
+    width: calc(25% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background: #CCC;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    clear: both;
+}
+
+.logo{
+    float: left;
+}
+
+a{
+    color: #111;
+}
+
+a:visited{
+    color: #111;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 81px;
+    color: #EEE;
+    background: #000;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 79px;
+    overflow: hidden;
+}
+
+h2, th{
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 20px;
+}
+
+th{
+    font-size: 18px;
+}
+
+input[type=text], input[type=email]{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1pxsolid #000;
+}
+
+.uslugi-brif-list{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav ul li{
+        list-style: none;
+        padding: 3px;
+        margin: 5px;
+        border: 1px solid #010077;
+        border-radius: 0px;
+        background: #DDD;
+        float: left;
+        width: calc(25% - 10px);
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 12px;
+        font-family: Verdana, Arial, sans-serif;
+    }
+}

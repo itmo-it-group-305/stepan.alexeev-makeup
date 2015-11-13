@@ -2,19 +2,24 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Услуги :: Gremlin Studio - Студия веб-разработки </title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная :: Gremlin Studio - Студия веб-разработки </title>
 </head>
 <body>
-    <img src="img/logo.gif" alt="logo_gremlin" />
-    <h1>Услуги - Gremlin Studio</h1>
-    <hr />
+<a href="index.html">
+    <img src="img/logo.gif" alt="logo_gremlin" class="logo"/>
+    <h1 class="title">Gremlin Studio</h1>
+</a>
+<hr />
+<nav class="main-menu">
     <ul>
         <li><a href="index.html">Главная</a></li>
-        <li><a href="services.html">Услуги</a></li>
+        <li><a href="services.html">Услуги <span style="color:#f00; font-weight:bold"><-БРИФ ТУТ</span></a></li>
         <li><a href="about.html">О нас</a></li>
         <li><a href="contacts.html">Контакты</a></li>
     </ul>
-    <hr />
+</nav>
+<hr />
     <h2>Прайс-лист на услуги нашей веб-студии</h2>
     <table border="1">
         <caption>Прайс-лист</caption>
@@ -48,7 +53,7 @@
         <div>
             <fieldset>
             <legend>Выберите улугу</legend>
-                <ul>
+                <ul class="uslugi-brif-list">
                     <li>
                         <label>
                             <input type="radio" name="usl" value="0">Сайт "под ключ"
@@ -83,7 +88,7 @@
         <div>
             <fieldset>
                 <legend>Дополнительные пожелания</legend>
-                <ul>
+                <ul class="uslugi-brif-list">
                     <li>
                         <label>
                             <input type="checkbox" name="dop[]" value="1">

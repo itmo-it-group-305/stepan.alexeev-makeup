@@ -1,39 +1,48 @@
-@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
-/*@import url(reset.css);*/
+@import url(normalize.css);
 @import url(grid.css);
+@import url(reset.css);
+@import url(menu.css);
 
 .wrapper{
-    min-width: 300px;
-    max-width: 1000px;
+
 }
 
-
-
-
-.block{
-    padding: 10px;
-    background: #ccc;
-    border: 10px dotted #000;
-    margin: 30px;
+body{
+    background: #000;
 }
 
-.header{
-    background: #ccc;
+.test{
+    font-size: 2em; /*32px;*/
 }
 
-.content{
-    background: #cfc;
-    width: 70%;
-    float: left;
+.test span{
+    font-size: 0.5em /*32px;*/
 }
 
-.sidebar{
-    background: #fcc;
-    width: 30%;
-    float: left;
+.row .row{
+    margin-left: -1.25em;
+    margin-right: -1.25em;
 }
 
-.footer{
-    background: #ccc;
-    clear: both;
+.modal-window{
+    background: #000;
+    color: #fff;
+    padding: 3.125em;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+
+.overlay{
+    background: rgba(255,0,255,0.7);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+
 }

@@ -1,0 +1,58 @@
+.menu li{
+    margin-top: 0.625em; /*10px*/
+    margin-bottom: 0.625em; /*10px*/
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    padding: 0.625em;
+    color: #000;
+    border: 10px dotted #dcd60c;
+    -webkit-border-radius: 17em;
+    -moz-border-radius: 17em;
+    border-radius: 17em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 17em;
+    /*width: 17em;*/
+    line-height: 17em;
+    background: #bbbbbb;
+}
+
+.menu a:hover{
+    color: #ff8f20;
+    font-weight: bold;
+    background: #111111;
+    animation-name: rotation;
+    /*Имя анимации. Немного ниже мы создадим анимацию с этим именем. Не сделайте их разными, иначе не заработает.*/
+    animation-duration: 20s;
+    /*Задаем продолжительность одного цикла анимации.*/
+    animation-iteration-count: infinite;
+    /*Задаем количество повторений цикла, в нашем случае — бесконечность.*/
+    animation-timing-function: linear;
+    /*Ну и указываем плавный тип анимации.*/
+}
+
+/*Ну а теперь, создаем нашу анимацию. Не забываем что мы уже указали ее название «rotation». Она настолько простая, что повторить такое сможет каждый.*/
+@keyframes rotation {
+/*Создаем ключевые кадры для анимации с именем «rotation».*/
+0% {transform:rotate(0deg);}
+/*Старт цикла, картинка повернута на 0 градусов о.О*/
+100% {transform:rotate(360deg);}
+/*Конец цикла, картинка повернута на 360 градусов, т.е. ее полный оборот.*/
+}
+
+.menu-horizontal{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.menu-horizontal li{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+

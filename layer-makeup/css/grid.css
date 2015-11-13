@@ -1,4 +1,6 @@
-
+.row{
+    overflow: hidden;
+}
 .row:after{
     clear: both;
     content: '.';
@@ -8,7 +10,7 @@
 }
 [class*=col-]{
     float: left;
-    padding: 5px;
+    padding: 0 1.25em;
 }
 .col-1{ width: 8.33333333333%;}
 .col-2{ width: 16.6666666667%;}
@@ -22,3 +24,16 @@
 .col-10{ width: 83.3333333333%;}
 .col-11{ width: 91.6666666667%;}
 .col-12{ width: 100%;}
+
+.offset-1{ margin-left: 8.33333333333%;}
+.offset-2{ margin-left: 16.6666666667%;}
+.offset-3{ margin-left: 25%;}
+.offset-4{ margin-left: 33.3333333333%;}
+.offset-5{ margin-left: 41.6666666667%;}
+.offset-6{ margin-left: 50%;}
+.offset-7{ margin-left: 58.3333333333%;}
+.offset-8{ margin-left: 66.6666666667%;}
+.offset-9{ margin-left: 75%;}
+.offset-10{margin-left: 83.3333333333%;}
+.offset-11{margin-left: 91.6666666667%;}
+.offset-12{margin-left: 100%;}

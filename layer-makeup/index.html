@@ -6,62 +6,74 @@
     <title>Блочная вёрстка</title>
 </head>
 <body>
-    <div class="block">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium at beatae culpa dicta distinctio dolores expedita explicabo fuga fugiat ipsum libero neque porro quam quibusdam rem repellendus, repudiandae velit voluptatem!
-    </div>
-    <div class="block">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum ipsam mollitia obcaecati pariatur porro quaerat recusandae sint? Accusamus assumenda consectetur dolorum laborum nisi non quos saepe! Dolor laboriosam, voluptatem!
-    </div>
     <div class="wrapper">
-        <div class="header">Header</div>
-        <div class="content">Content</div>
-        <div class="sidebar">Sidebar</div>
-        <div class="footer">
-            Footer<br>
-            Footer<br>
-            Footer<br>
-        </div>
-        <div class="row">
-            <div class="col-12"><h1>Header</h1></div>
-        </div>
-        <div class="row">
-            <div class="col-3">1</div>
-            <div class="col-3">2</div>
-            <div class="col-3">3</div>
-            <div class="col-3">4</div>
-        </div>
-        <div class="row">
-            <div class="col-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorum, earum
-                necessitatibus numquam odit quaerat quia quidem? Accusantium consectetur consequatur dignissimos laborum
-                officiis porro sit veritatis? Accusamus expedita labore obcaecati?</p>
-
-                <p>Aliquam atque consectetur cumque ea eos id in inventore iste nam necessitatibus officia quae quam
-                    quasi repudiandae similique sint suscipit ut velit vitae, voluptatibus. Eius fuga incidunt iure
-                    natus quod.</p>
-
-                <p>Alias aperiam at dolorum, eius, error eum exercitationem id, maxime nesciunt nobis quae reiciendis
-                    repellendus rerum sed soluta ut vitae. Accusantium doloremque eveniet sunt! Ea enim fugiat molestias
-                    quae saepe?</p></div>
-            <div class="col-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam
-                deserunt dolorem doloremque dolores doloribus eius eligendi incidunt maiores nisi officiis optio placeat
-                possimus, quos repudiandae rerum sit suscipit.</p>
-
-                <p>Aliquid dicta distinctio dolorem eos facilis, id laboriosam mollitia odit optio perferendis quam
-                    ratione sint tempore ullam vel vero voluptatem! Aperiam blanditiis debitis distinctio, doloremque
-                    error in omnis ratione sapiente?</p>
-
-                <p>Aliquid dicta distinctio dolorem eos facilis, id laboriosam mollitia odit optio perferendis quam
-                    ratione sint tempore ullam vel vero voluptatem! Aperiam blanditiis debitis distinctio, doloremque
-                    error in omnis ratione sapiente?</p></div>
-        </div>
-        <div class="row">
-            <div class="col-9">Content</div>
-            <div class="col-3">Sidebar</div>
-        </div>
-        <div class="row">
-            <div class="col-12">Footer</div>
+        <header>
+            <div class="row">
+                <nav>
+                    <ul class="menu menu-horizontal">
+                        <li><a href="#1">Меню 1</a></li>
+                        <li><a href="#2">Меню 2a</a></li>
+                        <li><a href="#3">Меню 3</a></li>
+                        <li><a href="#4">Меню 4</a></li>
+                        <li><a href="#5">Меню 5</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <footer>
+            <div class="row">
+                <div class="col6">
+                    <form action="#" method="post">
+                        <div class="form-row row">
+                            <label  class="col-2" for="question_name">
+                                Имя:
+                            </label>
+                            <div class="col-9">
+                            <input type="text" id="question_name" name="question[name]">
+                            </div>
+                        </div>
+                        <div class="form-row row">
+                            <label class="col-2" for="question_text">
+                                Вопрос:
+                            </label>
+                            <textarea class="col-9" id="question_text" name="question[text]"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </form>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor doloremque explicabo ipsum iste iure quibusdam recusandae voluptas! Ad animi architecto atque deleniti, dicta laudantium similique sunt temporibus totam voluptas!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, commodi cumque delectus est id iste itaque laboriosam officia, perspiciatis possimus quidem quis quod repellendus sequi tempora. Eveniet harum ipsa perferendis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa eveniet illum iste labore magni mollitia officia optio rerum tempora. Cumque fugit ipsam itaque maiores molestiae pariatur quas quasi rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga itaque molestiae odio! Cupiditate illo minus necessitatibus perferendis tempore velit vitae? Alias autem explicabo molestias nesciunt, nisi porro quidem velit voluptatum.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="overlay">
+        <div class="modal-window">
+            <p>This is SPARTA</p>
         </div>
     </div>
-
 </body>
 </html>
